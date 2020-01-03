@@ -4,11 +4,17 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 import VueSnotify from 'vue-snotify';
-import 'bootstrap/dist/css/bootstrap.css'
 import ProgressBar from 'vue-progressbar'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import BootstrapVue from 'bootstrap-vue'
+
+Vue.use(BootstrapVue)
+
+// app.js
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 library.add(faUserSecret)
 

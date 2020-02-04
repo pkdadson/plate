@@ -3,7 +3,7 @@
   <div class="container">
     <nav class="navbar navbar-expand navbar-fixed-top">
           <div class="nav-brand" >
-            <a href="/" style="color: black;">TEKPRENEUR</a>
+            <a href="/" style="color: black;">Plate</a>
           </div>      
           <div id="menu-toggle" class="menu">
            <font-awesome-icon :icon="['fas', 'coffee']"/>
@@ -19,7 +19,7 @@
               <a class="nav-link" href="/" style="color: black;">HOME</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="/apply" style="color: black;">APPLY</a>
+              <a class="nav-link" href="#" style="color: black;">APPLY</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#" style="color: black;">FAQ</a>
@@ -38,11 +38,6 @@
 
 <script>
 // @ is an alias to /src
-import Carousel from '@/components/Carousel.vue'
-import News from '@/components/News.vue'
-import Latest from '@/components/Latest.vue'
-import Announce from '@/components/Announce.vue'
-import Counter from '@/components/StatsCounter.vue'
 import Footer from '@/components/Footer.vue'
 
 
@@ -51,11 +46,6 @@ import Footer from '@/components/Footer.vue'
 export default {
   name: 'home',
   components: {
-    Carousel,
-    News,
-    Latest,
-    Announce,
-    Counter,
     Footer
   }
 }

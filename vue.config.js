@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
-    publicPath: isProd ? "/tekpreneur" : "",
+    publicPath: isProd ? "/" : "",
     configureWebpack: {
         // Set up all the aliases we use in our app.
         plugins: [
@@ -12,7 +12,7 @@ module.exports = {
         ]
     },
     pwa: {
-        name: 'Tekpreneur',
+        name: 'Plate',
         themeColor: '#9CCD64',
         msTileColor: '#9CCD64',
         appleMobileWebAppCapable: 'yes',

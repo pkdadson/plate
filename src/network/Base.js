@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export default () => {
     return axios.create({
-        baseURL: 'https://api.nugsknust.com', // store.state.baseApi, 23000
+        baseURL: 'https://api.plate.com', // store.state.baseApi, 23000
         responseType: 'json',
         timeout: 10000,
         // headers: {
